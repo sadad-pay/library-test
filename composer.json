@@ -1,0 +1,39 @@
+{
+    "name": "sadad/library",
+    "description": "Sadad PHP Library",
+    "keywords": [
+        "Sadad",
+        "Sadad Pay",
+        "SadadPay",
+        "Library",
+        "gateway",
+        "payment",
+        "api integration",
+        "e-commerce",
+    ],
+    "homepage": "https://sadadpay.net",
+    "authors": [
+        {
+            "name": "SadadPay Plugin Team",
+            "email": "plugins@sadadkw.com"
+        }
+    ],
+    "version": "1.0.0",
+    "type": "library",
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "require": {
+        "php": ">=7",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "files": ["autoload.php"],
+        "psr-4": {
+            "Sadad\\Library\\": "src/"
+        }
+    }
+}
+
