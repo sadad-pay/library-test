@@ -30,7 +30,7 @@
     },
     "prefer-stable": true,
     "autoload": {
-        "files": ["autoload.php"],
+        "files": ["src/SadadLibrary.php"],
         "psr-4": {
             "Sadad\\Library\\": "src/"
         }
