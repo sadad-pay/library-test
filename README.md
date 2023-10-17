@@ -12,7 +12,7 @@ The GPL-3.0-only License.
 You can install/require it via Composer
 
 ``` bash
-composer require sadad/library
+composer require sadad-payment/library
 ```
 
 ## How to use it ..
